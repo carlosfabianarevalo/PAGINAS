@@ -1,0 +1,32 @@
+#ingreso{
+    width:21rem;
+}
+
+body {
+    background: url("../images/fondo.jpg"); 
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#contrasena , #email{
+    width: 100%;
+    height: 40px;;
+}
+.content { 
+    width: 30%;
+    height: 40vh;
+    background-color: #fff;
+    position: relative;
+    border-radius: 15px;
+}
+
+button {
+    width: 100%;
+}
